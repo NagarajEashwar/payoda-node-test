@@ -8,7 +8,6 @@ import express from 'express';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import constants from './constants';
-// import Customer from './schemas/customer';
 
 // Express Initialization
 const app = express();
