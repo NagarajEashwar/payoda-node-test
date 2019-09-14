@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 }); 
 
 // Users
-app.post('/create', require('./routes/users/create').create);
+app.post('/', require('./routes/users/create').create);
 app.get('/users', require('./routes/users/list').list);
 app.post('/update', require('./routes/users/update').update);
 
