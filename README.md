@@ -15,7 +15,7 @@ It has Four REST ful API's
 4.Updating user Info (localhost:3000/update)-post method.
 
 ### How to run
-      First we need to add models latest version and install mongodb. 
+      First we need to add nodejs latest version and install mongodb. 
       Start mongodb service then navigate to the project file path then run the below commands. 
 	npm install
 	npm start
