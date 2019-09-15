@@ -33,12 +33,12 @@ app.use((req, res, next) => {
 }); 
 
 // Users
-app.post('/create', require('./routes/users/create').create);
+app.get('/create', require('./routes/users/create').create);
 app.get('/users', require('./routes/users/list').list);
 app.post('/update', require('./routes/users/update').update);
 
 // Posts
-app.post('/posts', require('./routes/posts/create').create);
+app.get('/posts', require('./routes/posts/create').create);
 
 app.listen(constants.PORT, () => {
     console.info(`Express started on the server ${constants.PORT}`);
